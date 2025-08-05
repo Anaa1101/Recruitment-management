@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\services\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\services\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\services\\interviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\services\\interviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\services\\evaluatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\services\\evaluatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\services\\candidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\services\\candidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\controllers\\ interviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\controllers\\ interviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\models\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\models\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\models\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\models\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\models\\evaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93CFA6-7C09-65A7-8FEA-B0D24E540294}|recruitment_management_backend\\Rec_Management\\Rec_Management.csproj|solutionrelative:recruitment_management_backend\\rec_management\\models\\evaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T11:19:58.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InterviewService.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Services\\InterviewService.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Services\\InterviewService.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Services\\InterviewService.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Services\\InterviewService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T10:31:14.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EvaluatorService.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Services\\EvaluatorService.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Services\\EvaluatorService.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Services\\EvaluatorService.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Services\\EvaluatorService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T10:30:30Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T10:28:45.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\appsettings.json",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\appsettings.json",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\appsettings.json",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-02T10:21:48.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JobService.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Services\\JobService.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Services\\JobService.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Services\\JobService.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Services\\JobService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T10:21:16.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T10:20:45.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": " InterviewController.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Controllers\\ InterviewController.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Controllers\\ InterviewController.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Controllers\\ InterviewController.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Controllers\\ InterviewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T10:20:32.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Program.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Program.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Program.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T09:31:34.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Models\\Job.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Models\\Job.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Models\\Job.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T10:04:05.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Models\\Candidate.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Models\\Candidate.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Models\\Candidate.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Models\\Candidate.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T09:31:52.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CandidateService.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Services\\CandidateService.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Services\\CandidateService.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Services\\CandidateService.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Services\\CandidateService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwCMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T09:31:25.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Interview.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Models\\Interview.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Models\\Interview.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Models\\Interview.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Models\\Interview.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T10:00:56.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Evaluator.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Models\\Evaluator.cs",
+              "RelativeDocumentMoniker": "recruitment_management_backend\\Rec_Management\\Models\\Evaluator.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Models\\Evaluator.cs",
+              "RelativeToolTip": "recruitment_management_backend\\Rec_Management\\Models\\Evaluator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T09:59:47.478Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
