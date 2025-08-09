@@ -3,52 +3,53 @@ import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
   const navigate = useNavigate();
+  const [id, setId] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
   const [hover, setHover] = useState(false);
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  setMessage("Logging in...");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setMessage("Checking credentials...");
 
-  try {
-    const response = await fetch("http://localhost:5117/api/auth/login", { // adjust port
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email, password }),
-    });
+    try {
+      // Fetch evaluator by ID
+      const response = await fetch(`https://localhost:7210/api/Evaluators/${id}`);
 
-    if (!response.ok) {
-      setMessage("Invalid Credentials");
-      return;
+      if (response.status === 404) {
+        setMessage("Invalid Credentials");
+        return;
+      }
+
+      if (!response.ok) {
+        setMessage("Server error. Please try again later.");
+        return;
+      }
+
+      const user = await response.json();
+
+      // Compare email & password
+      if (user.email === email && user.password === password) {
+        localStorage.setItem("userId", user.id);
+
+        if (user.designation === "Manager") {
+          navigate("/manager");
+        } else if (user.designation === "HR") {
+          navigate("/hr");
+        } else if (user.designation === "SuperAdmin") {
+          navigate("/superuser");
+        } else {
+          setMessage("Unknown designation. Contact admin.");
+        }
+      } else {
+        setMessage("Invalid Credentials");
+      }
+    } catch (error) {
+      console.error("Login error:", error);
+      setMessage("Server error. Please try again later.");
     }
-
-    const data = await response.json();
-
-    // ✅ Check designation from backend
-    if (data.designation === "Manager") {
-      navigate("/manager");
-    } else if (data.designation === "HR") {
-      navigate("/hr");
-    }
-    else if (data.designation === "SuperAdmin" ) {
-  setMessage("Login Successful!");
-  navigate("/superuser");
-    }
-
-     else {
-      setMessage("Unknown designation. Contact admin.");
-    }
-  } catch (error) {
-    console.error("Login error:", error);
-    setMessage("Server error. Please try again later.");
-  }
-};
-
-
+  };
 
   return (
     <div style={styles.page}>
@@ -62,7 +63,7 @@ const handleSubmit = async (e) => {
           }}
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
-          onClick={() => navigate("/joblist")} 
+          onClick={() => navigate("/joblist")}
         >
           APPLY FOR JOBS
         </button>
@@ -70,18 +71,9 @@ const handleSubmit = async (e) => {
 
       {/* Main Content */}
       <div style={styles.main}>
-        {/* Left Side: Login + Description */}
         <div style={styles.leftContent}>
-          <h1 style={{ color: colors.textDark, fontWeight: "500" }}>
-            We Are Cool
-          </h1>
-          <p
-            style={{
-              color: colors.textDark,
-              maxWidth: "400px",
-              marginBottom: "30px",
-            }}
-          >
+          <h1 style={{ color: colors.textDark, fontWeight: "500" }}>We Are Cool</h1>
+          <p style={{ color: colors.textDark, maxWidth: "400px", marginBottom: "30px" }}>
             At Cool, we help businesses grow through innovation and creativity.
             Join our team to explore limitless opportunities and shape the
             future with us.
@@ -89,6 +81,14 @@ const handleSubmit = async (e) => {
           <div style={styles.card}>
             <h2 style={{ color: colors.primary, marginBottom: "20px" }}>Login</h2>
             <form onSubmit={handleSubmit} style={styles.form}>
+              <input
+                type="text"
+                placeholder="Enter ID"
+                value={id}
+                onChange={(e) => setId(e.target.value)}
+                style={styles.input}
+                required
+              />
               <input
                 type="email"
                 placeholder="Enter Email"
@@ -105,9 +105,7 @@ const handleSubmit = async (e) => {
                 style={styles.input}
                 required
               />
-              <button type="submit" style={styles.button}>
-                Login
-              </button>
+              <button type="submit" style={styles.button}>Login</button>
             </form>
             {message && (
               <p style={{ marginTop: "15px", color: colors.textGray }}>
@@ -117,7 +115,7 @@ const handleSubmit = async (e) => {
           </div>
         </div>
 
-        {/* Right Side: Zigzag Collage Images */}
+        {/* Right Side Images */}
         <div style={styles.rightContent}>
           <img
             src="https://i.pinimg.com/736x/ba/73/65/ba73659f5f0652bf502daf8f32cc3b95.jpg"
@@ -137,7 +135,6 @@ const handleSubmit = async (e) => {
         </div>
       </div>
 
-      {/* Footer */}
       <footer style={styles.footer}>
         © 2025 Cool | All Rights Reserved
       </footer>
@@ -145,19 +142,19 @@ const handleSubmit = async (e) => {
   );
 }
 
-// 🎨 Color Palette
+// Colors
 const colors = {
-  primary: "#4e8ef7",      // Main blue
-  primaryLight: "#e6f0ff", // Light blue for cards/backgrounds
-  accentGreen: "#4caf50",  // For success states
-  accentYellow: "#fdd835", // For warning states
-  textDark: "#1a1a1a",     // Darker text
-  textGray: "#555555",     // Subtext
-  inputBg: "#ffffff",      // Input background
-  buttonHover: "#3c75d6",  // Slightly darker blue for hover
+  primary: "#4e8ef7",
+  primaryLight: "#e6f0ff",
+  accentGreen: "#4caf50",
+  accentYellow: "#fdd835",
+  textDark: "#1a1a1a",
+  textGray: "#555555",
+  inputBg: "#ffffff",
+  buttonHover: "#3c75d6",
 };
 
-// 💠 Styles
+// Styles
 const styles = {
   page: {
     minHeight: "100vh",
@@ -168,7 +165,7 @@ const styles = {
   navbar: {
     width: "100%",
     padding: "15px 40px",
-    background: "rgba(20, 20, 30, 0.85)", // unchanged
+    background: "rgba(20, 20, 30, 0.85)",
     backdropFilter: "blur(10px)",
     display: "flex",
     justifyContent: "space-between",
@@ -176,11 +173,7 @@ const styles = {
     boxShadow: "0 4px 20px rgba(0, 0, 0, 0.3)",
     borderBottom: "1px solid rgba(255,255,255,0.1)",
   },
-  brand: {
-    color: "#f0f0f0",
-    letterSpacing: "1px",
-    fontWeight: "600",
-  },
+  brand: { color: "#f0f0f0", letterSpacing: "1px", fontWeight: "600" },
   applyButton: {
     color: "#ffffff",
     backgroundColor: "rgba(255,255,255,0.1)",
@@ -217,8 +210,6 @@ const styles = {
     gap: "40px",
     position: "relative",
   },
-
-  // Zigzag Images
   imageTop: {
     width: "280px",
     height: "220px",
@@ -244,8 +235,6 @@ const styles = {
     boxShadow: "0 4px 15px rgba(0,0,0,0.1)",
     alignSelf: "flex-end",
   },
-
-  // Card
   card: {
     background: colors.primaryLight,
     padding: "30px",
@@ -255,10 +244,7 @@ const styles = {
     width: "320px",
     backdropFilter: "blur(8px)",
   },
-  form: {
-    display: "flex",
-    flexDirection: "column",
-  },
+  form: { display: "flex", flexDirection: "column" },
   input: {
     margin: "10px 0",
     padding: "12px",
@@ -279,10 +265,6 @@ const styles = {
     marginTop: "10px",
     transition: "0.3s",
   },
-  buttonHover: {
-    backgroundColor: colors.buttonHover,
-  },
-
   footer: {
     textAlign: "center",
     padding: "15px",

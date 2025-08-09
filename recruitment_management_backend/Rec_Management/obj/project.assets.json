@@ -2572,24 +2572,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/anaghaapatil/.nuget/packages/": {}
+    "C:\\Users\\Manvitha S\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anaghaapatil/recr_management/recruitment_management_backend/Rec_Management/Rec_Management.csproj",
+      "projectUniqueName": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Rec_Management.csproj",
       "projectName": "Rec_Management",
-      "projectPath": "/Users/anaghaapatil/recr_management/recruitment_management_backend/Rec_Management/Rec_Management.csproj",
-      "packagesPath": "/Users/anaghaapatil/.nuget/packages/",
-      "outputPath": "/Users/anaghaapatil/recr_management/recruitment_management_backend/Rec_Management/obj/",
+      "projectPath": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Rec_Management.csproj",
+      "packagesPath": "C:\\Users\\Manvitha S\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/anaghaapatil/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Manvitha S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2607,7 +2614,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -2665,7 +2673,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

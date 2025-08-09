@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF07111A-43F9-C1F4-A8E2-EEDF88DDBF1E}|Rec_Management\\Rec_Management.csproj|c:\\users\\manvitha s\\downloads\\placement\\anaghacode\\recruitment-management\\recruitment_management_backend\\rec_management\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF07111A-43F9-C1F4-A8E2-EEDF88DDBF1E}|Rec_Management\\Rec_Management.csproj|solutionrelative:rec_management\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Rec_Management\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Manvitha S\\Downloads\\placement\\AnaghaCode\\Recruitment-management\\recruitment_management_backend\\Rec_Management\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Rec_Management\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T05:03:00.502Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
